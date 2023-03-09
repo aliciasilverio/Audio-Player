@@ -1,10 +1,12 @@
+import DisplayTrack from './DisplayTrack';
+
 const AudioPlayer = () => {
-    
-    return (
-      <div className="audio-player">
-        <div className="inner">Audio player content</div>
+  return (
+    <div className="audio-player">
+      <div className="inner">
+        <DisplayTrack />
       </div>
-    );
-  };
-  
-  export default AudioPlayer;
+    </div>
+  );
+};
+export default AudioPlayer;
